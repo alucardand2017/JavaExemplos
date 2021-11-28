@@ -1,9 +1,10 @@
+package Heranca;
 public class Vehicle {
-    protected String modelo;
-    protected String ano;
-    protected String marca;
-    protected String cor;
-    protected float potenciaCV;
+    public String modelo;
+    public String ano;
+    public String marca;
+    public String cor;
+    public float potenciaCV;
 
 
 

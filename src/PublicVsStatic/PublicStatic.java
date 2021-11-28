@@ -1,3 +1,5 @@
+package PublicVsStatic;
+
 public class PublicStatic {
     static void meuMetodoStatico(){
         System.out.println("Esse método pode ser chamado sem precisar instanciar Objetos!");

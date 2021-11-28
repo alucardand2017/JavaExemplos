@@ -1,3 +1,4 @@
+
 public class ExMetodo {
   public static void main(String[] args) {
     chamarImpressao(); //1

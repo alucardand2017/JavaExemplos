@@ -1,10 +1,11 @@
+package Modificadores;
 public class ExModificadores {
     
     public String varPublica = "todo mundo pode me acessar.";
     
     private String varPrivada = "não conseguimos acessar facilmente.";
     
-    protected String varProtected = "Apenas subclasses podem me ver.";
+    protected String varProtected = "Apenas subclasses podem me ver ou classes do mesmo pacote.";
     
     String varDefault = "Ela é acessada por meio do mesmo pacote";  
 

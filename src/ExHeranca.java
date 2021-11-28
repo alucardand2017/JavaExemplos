@@ -1,6 +1,7 @@
+import Heranca.*;
 import java.util.Scanner;
 
-public class ExInheritanceHeranca extends Vehicle {
+public class ExHeranca extends Vehicle {
     public static void main(String[] args) {
         Vehicle meuCarro = new Vehicle();
         meuCarro.ano = "2014";
@@ -21,20 +22,16 @@ public class ExInheritanceHeranca extends Vehicle {
                     switch(respostaMenuAuxiliar){
                         case 0:
                             respostaMenuAuxiliar = 0;
-                            break;
-        
+                            break;   
                         case 1:
                             System.out.println(meuCarro.marca);
-                            break;
-                        
+                            break;                    
                         case 2:
                             System.out.println(meuCarro.modelo);
                             break;
-                        
                         case 3:
                             System.out.println(meuCarro.ano);
                             break;
-                        
                         case 4:
                             System.out.println(meuCarro.cor);
                             break;
@@ -52,23 +49,18 @@ public class ExInheritanceHeranca extends Vehicle {
                         case 0:
                             respostaMenuAuxiliar = 0;
                             break;
-        
                         case 1:
                             meuCarro.acelerar();
                             break;
-                        
                         case 2:
                             meuCarro.frear();
                             break;
-                        
                         case 3:
                             meuCarro.virarDireita();
                             break;
-                        
                         case 4:
                             meuCarro.virarEsquerda();
                             break;
-                        
                         case 5:
                             meuCarro.marchaRe();
                             break;
@@ -81,5 +73,4 @@ public class ExInheritanceHeranca extends Vehicle {
         } while(respostaMenuPrincipal != 0);
         teclado.close();
     }
-
 }
